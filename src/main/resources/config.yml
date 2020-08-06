@@ -1,0 +1,19 @@
+# The message to show to players when they do not use the right protocol to connect
+# Available placeholder: {protocolname}
+kick-message: 'Unsupported version!.newline.Please, join using {protocolname}'
+
+# List of supported protocols
+# See this page for all protocol versions
+# http://wiki.vg/Protocol_version_numbers
+protocol-version:
+  - 736 # 1.16.2
+  - 340 # 1.12.2
+
+# List of protocols that won't kick users but will be shown as unsupported
+# Uncomment this if you want to use this feature
+#do-not-kick-protocol:
+#  - 578 # 1.15.1
+
+# Sets the protocol name. Do NOT use chat color in this.
+# Set to 'null' to disable changing the protocol name.
+protocol-name: 'Minecraft 1.15.2'

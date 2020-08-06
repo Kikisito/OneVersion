@@ -1,0 +1,4 @@
+name: OneVersion
+main : es.kikisito.oneversion.Main
+version: ${project.version}
+authors: [johnnywoof, Kikisito]
